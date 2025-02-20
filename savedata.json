@@ -1,0 +1,650 @@
+{
+      "bn": "Object",
+      "typ": "Object",
+      "dn": "Objects",
+      "name": "i=85",
+      "children": [
+            {
+                  "bn": "Object",
+                  "typ": "Object",
+                  "dn": "cement_crusher1",
+                  "name": "ns=3;i=1001",
+                  "children": [
+                        {
+                              "bn": "Variable",
+                              "typ": "VariantType.Double",
+                              "dn": "cement_production",
+                              "name": "ns=3;i=1012"
+                        },
+                        {
+                              "bn": "Variable",
+                              "typ": "VariantType.Double",
+                              "dn": "clincker_consumer",
+                              "name": "ns=3;i=1013"
+                        },
+                        {
+                              "bn": "Variable",
+                              "typ": "VariantType.Double",
+                              "dn": "stone_consumer",
+                              "name": "ns=3;i=1014"
+                        },
+                        {
+                              "bn": "Variable",
+                              "typ": "VariantType.Double",
+                              "dn": "elctrical_consumer",
+                              "name": "ns=3;i=1015"
+                        },
+                        {
+                              "bn": "Variable",
+                              "typ": "VariantType.Double",
+                              "dn": "fitness_cement",
+                              "name": "ns=3;i=1016"
+                        }
+                  ]
+            },
+            {
+                  "bn": "Object",
+                  "typ": "Object",
+                  "dn": "cement crusher2",
+                  "name": "ns=3;i=1009"
+            },
+            {
+                  "bn": "Object",
+                  "typ": "Object",
+                  "dn": "clincker oven1",
+                  "name": "ns=3;i=1010"
+            },
+            {
+                  "bn": "Object",
+                  "typ": "Object",
+                  "dn": "main electrical station",
+                  "name": "ns=3;i=1011"
+            },
+            {
+                  "bn": "Object",
+                  "typ": "Object",
+                  "dn": "Simulation",
+                  "name": "ns=3;s=85/0:Simulation",
+                  "children": [
+                        {
+                              "bn": "Variable",
+                              "typ": "VariantType.Double",
+                              "dn": "Random",
+                              "name": "ns=3;i=1002",
+                              "children": [
+                                    {
+                                          "bn": "Object",
+                                          "typ": "Object",
+                                          "dn": "Signal",
+                                          "name": "ns=4;i=1002",
+                                          "children": [
+                                                {
+                                                      "name": "ns=4;s=1002/0:Max Value"
+                                                },
+                                                {
+                                                      "name": "ns=4;s=1002/0:Min Value"
+                                                }
+                                          ]
+                                    }
+                              ]
+                        },
+                        {
+                              "bn": "Variable",
+                              "typ": "VariantType.Double",
+                              "dn": "Sawtooth",
+                              "name": "ns=3;i=1003",
+                              "children": [
+                                    {
+                                          "bn": "Object",
+                                          "typ": "Object",
+                                          "dn": "Signal",
+                                          "name": "ns=4;i=1003",
+                                          "children": [
+                                                {
+                                                      "name": "ns=4;s=1003/0:Time Offset"
+                                                },
+                                                {
+                                                      "name": "ns=4;s=1003/0:Min Value"
+                                                },
+                                                {
+                                                      "name": "ns=4;s=1003/0:Max Value"
+                                                },
+                                                {
+                                                      "name": "ns=4;s=1003/0:Period"
+                                                }
+                                          ]
+                                    }
+                              ]
+                        },
+                        {
+                              "bn": "Variable",
+                              "typ": "VariantType.Double",
+                              "dn": "Sinusoid",
+                              "name": "ns=3;i=1004",
+                              "children": [
+                                    {
+                                          "bn": "Object",
+                                          "typ": "Object",
+                                          "dn": "Signal",
+                                          "name": "ns=4;i=1004",
+                                          "children": [
+                                                {
+                                                      "name": "ns=4;s=1004/0:Time Offset"
+                                                },
+                                                {
+                                                      "name": "ns=4;s=1004/0:Min Value"
+                                                },
+                                                {
+                                                      "name": "ns=4;s=1004/0:Max Value"
+                                                },
+                                                {
+                                                      "name": "ns=4;s=1004/0:Period"
+                                                }
+                                          ]
+                                    }
+                              ]
+                        },
+                        {
+                              "bn": "Variable",
+                              "typ": "VariantType.Double",
+                              "dn": "Square",
+                              "name": "ns=3;i=1005",
+                              "children": [
+                                    {
+                                          "bn": "Object",
+                                          "typ": "Object",
+                                          "dn": "Signal",
+                                          "name": "ns=4;i=1005",
+                                          "children": [
+                                                {
+                                                      "name": "ns=4;s=1005/0:Time Offset"
+                                                },
+                                                {
+                                                      "name": "ns=4;s=1005/0:Min Value"
+                                                },
+                                                {
+                                                      "name": "ns=4;s=1005/0:Max Value"
+                                                },
+                                                {
+                                                      "name": "ns=4;s=1005/0:Period"
+                                                }
+                                          ]
+                                    }
+                              ]
+                        },
+                        {
+                              "bn": "Variable",
+                              "typ": "VariantType.Double",
+                              "dn": "Triangle",
+                              "name": "ns=3;i=1006",
+                              "children": [
+                                    {
+                                          "bn": "Object",
+                                          "typ": "Object",
+                                          "dn": "Signal",
+                                          "name": "ns=4;i=1001",
+                                          "children": [
+                                                {
+                                                      "name": "ns=4;s=1001/0:Time Offset"
+                                                },
+                                                {
+                                                      "name": "ns=4;s=1001/0:Min Value"
+                                                },
+                                                {
+                                                      "name": "ns=4;s=1001/0:Max Value"
+                                                },
+                                                {
+                                                      "name": "ns=4;s=1001/0:Period"
+                                                }
+                                          ]
+                                    }
+                              ]
+                        },
+                        {
+                              "bn": "Variable",
+                              "typ": "VariantType.ExtensionObject",
+                              "dn": "gh",
+                              "name": "ns=3;i=1007",
+                              "children": [
+                                    {
+                                          "bn": "Variable",
+                                          "typ": "VariantType.UInt32",
+                                          "dn": "CumulatedSessionCount",
+                                          "name": "ns=3;s=1007/0:CumulatedSessionCount"
+                                    },
+                                    {
+                                          "bn": "Variable",
+                                          "typ": "VariantType.UInt32",
+                                          "dn": "CumulatedSubscriptionCount",
+                                          "name": "ns=3;s=1007/0:CumulatedSubscriptionCount"
+                                    },
+                                    {
+                                          "bn": "Variable",
+                                          "typ": "VariantType.UInt32",
+                                          "dn": "CurrentSessionCount",
+                                          "name": "ns=3;s=1007/0:CurrentSessionCount"
+                                    },
+                                    {
+                                          "bn": "Variable",
+                                          "typ": "VariantType.UInt32",
+                                          "dn": "CurrentSubscriptionCount",
+                                          "name": "ns=3;s=1007/0:CurrentSubscriptionCount"
+                                    },
+                                    {
+                                          "bn": "Variable",
+                                          "typ": "VariantType.UInt32",
+                                          "dn": "PublishingIntervalCount",
+                                          "name": "ns=3;s=1007/0:PublishingIntervalCount"
+                                    },
+                                    {
+                                          "bn": "Variable",
+                                          "typ": "VariantType.UInt32",
+                                          "dn": "RejectedRequestsCount",
+                                          "name": "ns=3;s=1007/0:RejectedRequestsCount"
+                                    },
+                                    {
+                                          "bn": "Variable",
+                                          "typ": "VariantType.UInt32",
+                                          "dn": "RejectedSessionCount",
+                                          "name": "ns=3;s=1007/0:RejectedSessionCount"
+                                    },
+                                    {
+                                          "bn": "Variable",
+                                          "typ": "VariantType.UInt32",
+                                          "dn": "SecurityRejectedRequestsCount",
+                                          "name": "ns=3;s=1007/0:SecurityRejectedRequestsCount"
+                                    },
+                                    {
+                                          "bn": "Variable",
+                                          "typ": "VariantType.UInt32",
+                                          "dn": "SecurityRejectedSessionCount",
+                                          "name": "ns=3;s=1007/0:SecurityRejectedSessionCount"
+                                    },
+                                    {
+                                          "bn": "Variable",
+                                          "typ": "VariantType.UInt32",
+                                          "dn": "ServerViewCount",
+                                          "name": "ns=3;s=1007/0:ServerViewCount"
+                                    },
+                                    {
+                                          "bn": "Variable",
+                                          "typ": "VariantType.UInt32",
+                                          "dn": "SessionAbortCount",
+                                          "name": "ns=3;s=1007/0:SessionAbortCount"
+                                    },
+                                    {
+                                          "bn": "Variable",
+                                          "typ": "VariantType.UInt32",
+                                          "dn": "SessionTimeoutCount",
+                                          "name": "ns=3;s=1007/0:SessionTimeoutCount"
+                                    }
+                              ]
+                        },
+                        {
+                              "bn": "Variable",
+                              "typ": "VariantType.Double",
+                              "dn": "hg",
+                              "name": "ns=3;i=1008"
+                        }
+                  ]
+            },
+            {
+                  "bn": "Object",
+                  "typ": "Object",
+                  "dn": "MyObjects",
+                  "name": "ns=6;s=MyObjectsFolder",
+                  "children": [
+                        {
+                              "bn": "Object",
+                              "typ": "Object",
+                              "dn": "MyDevice",
+                              "name": "ns=6;s=MyDevice",
+                              "children": [
+                                    {
+                                          "bn": "Variable",
+                                          "typ": "VariantType.Double",
+                                          "dn": "MyLevel",
+                                          "name": "ns=6;s=MyLevel"
+                                    },
+                                    {
+                                          "bn": "Object",
+                                          "typ": "Object",
+                                          "dn": "MyLevelAlarm",
+                                          "name": "ns=6;s=MyLevel.Alarm",
+                                          "children": [
+                                                {
+                                                      "bn": "Method",
+                                                      "typ": "Method",
+                                                      "dn": "Enable",
+                                                      "name": "i=9027"
+                                                },
+                                                {
+                                                      "bn": "Method",
+                                                      "typ": "Method",
+                                                      "dn": "Disable",
+                                                      "name": "i=9028"
+                                                },
+                                                {
+                                                      "bn": "Method",
+                                                      "typ": "Method",
+                                                      "dn": "AddComment",
+                                                      "name": "i=9029",
+                                                      "children": [
+                                                            {
+                                                                  "bn": "Variable",
+                                                                  "typ": "VariantType.ExtensionObject",
+                                                                  "dn": "InputArguments",
+                                                                  "name": "i=9030"
+                                                            }
+                                                      ]
+                                                },
+                                                {
+                                                      "bn": "Method",
+                                                      "typ": "Method",
+                                                      "dn": "Acknowledge",
+                                                      "name": "i=9111",
+                                                      "children": [
+                                                            {
+                                                                  "bn": "Variable",
+                                                                  "typ": "VariantType.ExtensionObject",
+                                                                  "dn": "InputArguments",
+                                                                  "name": "i=9112"
+                                                            }
+                                                      ]
+                                                },
+                                                {
+                                                      "bn": "Variable",
+                                                      "typ": "VariantType.LocalizedText",
+                                                      "dn": "AckedState",
+                                                      "name": "ns=6;s=MyLevel.Alarm/0:AckedState",
+                                                      "children": [
+                                                            {
+                                                                  "bn": "Variable",
+                                                                  "typ": "VariantType.LocalizedText",
+                                                                  "dn": "FalseState",
+                                                                  "name": "ns=6;s=MyLevel.Alarm/0:AckedState/0:FalseState"
+                                                            },
+                                                            {
+                                                                  "bn": "Variable",
+                                                                  "typ": "VariantType.LocalizedText",
+                                                                  "dn": "TrueState",
+                                                                  "name": "ns=6;s=MyLevel.Alarm/0:AckedState/0:TrueState"
+                                                            },
+                                                            {
+                                                                  "bn": "Variable",
+                                                                  "typ": "VariantType.Boolean",
+                                                                  "dn": "Id",
+                                                                  "name": "ns=6;s=MyLevel.Alarm/0:AckedState/0:Id"
+                                                            }
+                                                      ]
+                                                },
+                                                {
+                                                      "bn": "Variable",
+                                                      "typ": "VariantType.LocalizedText",
+                                                      "dn": "ActiveState",
+                                                      "name": "ns=6;s=MyLevel.Alarm/0:ActiveState",
+                                                      "children": [
+                                                            {
+                                                                  "bn": "Variable",
+                                                                  "typ": "VariantType.LocalizedText",
+                                                                  "dn": "FalseState",
+                                                                  "name": "ns=6;s=MyLevel.Alarm/0:ActiveState/0:FalseState"
+                                                            },
+                                                            {
+                                                                  "bn": "Variable",
+                                                                  "typ": "VariantType.LocalizedText",
+                                                                  "dn": "TrueState",
+                                                                  "name": "ns=6;s=MyLevel.Alarm/0:ActiveState/0:TrueState"
+                                                            },
+                                                            {
+                                                                  "bn": "Variable",
+                                                                  "typ": "VariantType.Boolean",
+                                                                  "dn": "Id",
+                                                                  "name": "ns=6;s=MyLevel.Alarm/0:ActiveState/0:Id"
+                                                            }
+                                                      ]
+                                                },
+                                                {
+                                                      "bn": "Variable",
+                                                      "typ": "VariantType.LocalizedText",
+                                                      "dn": "Comment",
+                                                      "name": "ns=6;s=MyLevel.Alarm/0:Comment",
+                                                      "children": [
+                                                            {
+                                                                  "bn": "Variable",
+                                                                  "typ": "VariantType.DateTime",
+                                                                  "dn": "SourceTimestamp",
+                                                                  "name": "ns=6;s=MyLevel.Alarm/0:Comment/0:SourceTimestamp"
+                                                            }
+                                                      ]
+                                                },
+                                                {
+                                                      "bn": "Variable",
+                                                      "typ": "VariantType.LocalizedText",
+                                                      "dn": "EnabledState",
+                                                      "name": "ns=6;s=MyLevel.Alarm/0:EnabledState",
+                                                      "children": [
+                                                            {
+                                                                  "bn": "Variable",
+                                                                  "typ": "VariantType.LocalizedText",
+                                                                  "dn": "FalseState",
+                                                                  "name": "ns=6;s=MyLevel.Alarm/0:EnabledState/0:FalseState"
+                                                            },
+                                                            {
+                                                                  "bn": "Variable",
+                                                                  "typ": "VariantType.LocalizedText",
+                                                                  "dn": "TrueState",
+                                                                  "name": "ns=6;s=MyLevel.Alarm/0:EnabledState/0:TrueState"
+                                                            },
+                                                            {
+                                                                  "bn": "Variable",
+                                                                  "typ": "VariantType.Boolean",
+                                                                  "dn": "Id",
+                                                                  "name": "ns=6;s=MyLevel.Alarm/0:EnabledState/0:Id"
+                                                            }
+                                                      ]
+                                                },
+                                                {
+                                                      "bn": "Variable",
+                                                      "typ": "VariantType.UInt16",
+                                                      "dn": "LastSeverity",
+                                                      "name": "ns=6;s=MyLevel.Alarm/0:LastSeverity",
+                                                      "children": [
+                                                            {
+                                                                  "bn": "Variable",
+                                                                  "typ": "VariantType.DateTime",
+                                                                  "dn": "SourceTimestamp",
+                                                                  "name": "ns=6;s=MyLevel.Alarm/0:LastSeverity/0:SourceTimestamp"
+                                                            }
+                                                      ]
+                                                },
+                                                {
+                                                      "bn": "Object",
+                                                      "typ": "Object",
+                                                      "dn": "LimitState",
+                                                      "name": "ns=6;s=MyLevel.Alarm/0:LimitState",
+                                                      "children": [
+                                                            {
+                                                                  "bn": "Variable",
+                                                                  "typ": "VariantType.LocalizedText",
+                                                                  "dn": "CurrentState",
+                                                                  "name": "ns=6;s=MyLevel.Alarm/0:LimitState/0:CurrentState",
+                                                                  "children": [
+                                                                        {
+                                                                              "bn": "Variable",
+                                                                              "typ": "VariantType.NodeId",
+                                                                              "dn": "Id",
+                                                                              "name": "ns=6;s=MyLevel.Alarm/0:LimitState/0:CurrentState/0:Id"
+                                                                        }
+                                                                  ]
+                                                            }
+                                                      ]
+                                                },
+                                                {
+                                                      "bn": "Variable",
+                                                      "typ": "VariantType.StatusCode",
+                                                      "dn": "Quality",
+                                                      "name": "ns=6;s=MyLevel.Alarm/0:Quality",
+                                                      "children": [
+                                                            {
+                                                                  "bn": "Variable",
+                                                                  "typ": "VariantType.DateTime",
+                                                                  "dn": "SourceTimestamp",
+                                                                  "name": "ns=6;s=MyLevel.Alarm/0:Quality/0:SourceTimestamp"
+                                                            }
+                                                      ]
+                                                },
+                                                {
+                                                      "bn": "Variable",
+                                                      "typ": "VariantType.NodeId",
+                                                      "dn": "ConditionClassId",
+                                                      "name": "ns=6;s=MyLevel.Alarm/0:ConditionClassId"
+                                                },
+                                                {
+                                                      "bn": "Variable",
+                                                      "typ": "VariantType.ByteString",
+                                                      "dn": "EventId",
+                                                      "name": "ns=6;s=MyLevel.Alarm/0:EventId"
+                                                },
+                                                {
+                                                      "bn": "Variable",
+                                                      "typ": "VariantType.DateTime",
+                                                      "dn": "Time",
+                                                      "name": "ns=6;s=MyLevel.Alarm/0:Time"
+                                                },
+                                                {
+                                                      "bn": "Variable",
+                                                      "typ": "VariantType.Boolean",
+                                                      "dn": "SuppressedOrShelved",
+                                                      "name": "ns=6;s=MyLevel.Alarm/0:SuppressedOrShelved"
+                                                },
+                                                {
+                                                      "bn": "Variable",
+                                                      "typ": "VariantType.Double",
+                                                      "dn": "LowLowLimit",
+                                                      "name": "ns=6;s=MyLevel.Alarm/0:LowLowLimit"
+                                                },
+                                                {
+                                                      "bn": "Variable",
+                                                      "typ": "VariantType.NodeId",
+                                                      "dn": "EventType",
+                                                      "name": "ns=6;s=MyLevel.Alarm/0:EventType"
+                                                },
+                                                {
+                                                      "bn": "Variable",
+                                                      "typ": "VariantType.NodeId",
+                                                      "dn": "SourceNode",
+                                                      "name": "ns=6;s=MyLevel.Alarm/0:SourceNode"
+                                                },
+                                                {
+                                                      "bn": "Variable",
+                                                      "typ": "VariantType.Double",
+                                                      "dn": "HighHighLimit",
+                                                      "name": "ns=6;s=MyLevel.Alarm/0:HighHighLimit"
+                                                },
+                                                {
+                                                      "bn": "Variable",
+                                                      "typ": "VariantType.Double",
+                                                      "dn": "HighLimit",
+                                                      "name": "ns=6;s=MyLevel.Alarm/0:HighLimit"
+                                                },
+                                                {
+                                                      "bn": "Variable",
+                                                      "typ": "VariantType.UInt16",
+                                                      "dn": "Severity",
+                                                      "name": "ns=6;s=MyLevel.Alarm/0:Severity"
+                                                },
+                                                {
+                                                      "bn": "Variable",
+                                                      "typ": "VariantType.NodeId",
+                                                      "dn": "InputNode",
+                                                      "name": "ns=6;s=MyLevel.Alarm/0:InputNode"
+                                                },
+                                                {
+                                                      "bn": "Variable",
+                                                      "typ": "VariantType.Boolean",
+                                                      "dn": "Retain",
+                                                      "name": "ns=6;s=MyLevel.Alarm/0:Retain"
+                                                },
+                                                {
+                                                      "bn": "Variable",
+                                                      "typ": "VariantType.LocalizedText",
+                                                      "dn": "Message",
+                                                      "name": "ns=6;s=MyLevel.Alarm/0:Message"
+                                                },
+                                                {
+                                                      "bn": "Variable",
+                                                      "typ": "VariantType.String",
+                                                      "dn": "ClientUserId",
+                                                      "name": "ns=6;s=MyLevel.Alarm/0:ClientUserId"
+                                                },
+                                                {
+                                                      "bn": "Variable",
+                                                      "typ": "VariantType.NodeId",
+                                                      "dn": "BranchId",
+                                                      "name": "ns=6;s=MyLevel.Alarm/0:BranchId"
+                                                },
+                                                {
+                                                      "bn": "Variable",
+                                                      "typ": "VariantType.DateTime",
+                                                      "dn": "ReceiveTime",
+                                                      "name": "ns=6;s=MyLevel.Alarm/0:ReceiveTime"
+                                                },
+                                                {
+                                                      "bn": "Variable",
+                                                      "typ": "VariantType.LocalizedText",
+                                                      "dn": "ConditionClassName",
+                                                      "name": "ns=6;s=MyLevel.Alarm/0:ConditionClassName"
+                                                },
+                                                {
+                                                      "bn": "Variable",
+                                                      "typ": "VariantType.String",
+                                                      "dn": "SourceName",
+                                                      "name": "ns=6;s=MyLevel.Alarm/0:SourceName"
+                                                },
+                                                {
+                                                      "bn": "Variable",
+                                                      "typ": "VariantType.String",
+                                                      "dn": "ConditionName",
+                                                      "name": "ns=6;s=MyLevel.Alarm/0:ConditionName"
+                                                },
+                                                {
+                                                      "bn": "Variable",
+                                                      "typ": "VariantType.Double",
+                                                      "dn": "LowLimit",
+                                                      "name": "ns=6;s=MyLevel.Alarm/0:LowLimit"
+                                                }
+                                          ]
+                                    },
+                                    {
+                                          "bn": "Method",
+                                          "typ": "Method",
+                                          "dn": "MyMethod",
+                                          "name": "ns=6;s=MyMethod",
+                                          "children": [
+                                                {
+                                                      "bn": "Variable",
+                                                      "typ": "VariantType.ExtensionObject",
+                                                      "dn": "InputArguments",
+                                                      "name": "ns=6;s=MyMethod/0:InputArguments"
+                                                },
+                                                {
+                                                      "bn": "Variable",
+                                                      "typ": "VariantType.ExtensionObject",
+                                                      "dn": "OutputArguments",
+                                                      "name": "ns=6;s=MyMethod/0:OutputArguments"
+                                                }
+                                          ]
+                                    },
+                                    {
+                                          "bn": "Variable",
+                                          "typ": "VariantType.Boolean",
+                                          "dn": "MySwitch",
+                                          "name": "ns=6;s=MySwitch"
+                                    }
+                              ]
+                        }
+                  ]
+            }
+      ]
+}

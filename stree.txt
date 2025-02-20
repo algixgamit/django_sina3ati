@@ -1,0 +1,108 @@
+i=84 i=85 {}
+i=85 ns=3;i=1001 {}
+i=85 ns=3;i=1009 {}
+i=85 ns=3;i=1010 {}
+i=85 ns=3;i=1011 {}
+i=85 ns=3;s=85/0:Simulation {}
+i=85 ns=6;s=MyObjectsFolder {}
+ns=3;i=1001 ns=3;i=1012 {}
+ns=3;i=1001 ns=3;i=1013 {}
+ns=3;i=1001 ns=3;i=1014 {}
+ns=3;i=1001 ns=3;i=1015 {}
+ns=3;i=1001 ns=3;i=1016 {}
+ns=3;s=85/0:Simulation ns=3;i=1002 {}
+ns=3;s=85/0:Simulation ns=3;i=1003 {}
+ns=3;s=85/0:Simulation ns=3;i=1004 {}
+ns=3;s=85/0:Simulation ns=3;i=1005 {}
+ns=3;s=85/0:Simulation ns=3;i=1006 {}
+ns=3;s=85/0:Simulation ns=3;i=1007 {}
+ns=3;s=85/0:Simulation ns=3;i=1008 {}
+ns=3;i=1002 ns=4;i=1002 {}
+ns=4;i=1002 ns=4;s=1002/0:Max Value {}
+ns=4;i=1002 ns=4;s=1002/0:Min Value {}
+ns=3;i=1003 ns=4;i=1003 {}
+ns=4;i=1003 ns=4;s=1003/0:Time Offset {}
+ns=4;i=1003 ns=4;s=1003/0:Min Value {}
+ns=4;i=1003 ns=4;s=1003/0:Max Value {}
+ns=4;i=1003 ns=4;s=1003/0:Period {}
+ns=3;i=1004 ns=4;i=1004 {}
+ns=4;i=1004 ns=4;s=1004/0:Time Offset {}
+ns=4;i=1004 ns=4;s=1004/0:Min Value {}
+ns=4;i=1004 ns=4;s=1004/0:Max Value {}
+ns=4;i=1004 ns=4;s=1004/0:Period {}
+ns=3;i=1005 ns=4;i=1005 {}
+ns=4;i=1005 ns=4;s=1005/0:Time Offset {}
+ns=4;i=1005 ns=4;s=1005/0:Min Value {}
+ns=4;i=1005 ns=4;s=1005/0:Max Value {}
+ns=4;i=1005 ns=4;s=1005/0:Period {}
+ns=3;i=1006 ns=4;i=1001 {}
+ns=4;i=1001 ns=4;s=1001/0:Time Offset {}
+ns=4;i=1001 ns=4;s=1001/0:Min Value {}
+ns=4;i=1001 ns=4;s=1001/0:Max Value {}
+ns=4;i=1001 ns=4;s=1001/0:Period {}
+ns=3;i=1007 ns=3;s=1007/0:CumulatedSessionCount {}
+ns=3;i=1007 ns=3;s=1007/0:CumulatedSubscriptionCount {}
+ns=3;i=1007 ns=3;s=1007/0:CurrentSessionCount {}
+ns=3;i=1007 ns=3;s=1007/0:CurrentSubscriptionCount {}
+ns=3;i=1007 ns=3;s=1007/0:PublishingIntervalCount {}
+ns=3;i=1007 ns=3;s=1007/0:RejectedRequestsCount {}
+ns=3;i=1007 ns=3;s=1007/0:RejectedSessionCount {}
+ns=3;i=1007 ns=3;s=1007/0:SecurityRejectedRequestsCount {}
+ns=3;i=1007 ns=3;s=1007/0:SecurityRejectedSessionCount {}
+ns=3;i=1007 ns=3;s=1007/0:ServerViewCount {}
+ns=3;i=1007 ns=3;s=1007/0:SessionAbortCount {}
+ns=3;i=1007 ns=3;s=1007/0:SessionTimeoutCount {}
+ns=6;s=MyObjectsFolder ns=6;s=MyDevice {}
+ns=6;s=MyDevice ns=6;s=MyLevel {}
+ns=6;s=MyDevice ns=6;s=MyLevel.Alarm {}
+ns=6;s=MyDevice ns=6;s=MyMethod {}
+ns=6;s=MyDevice ns=6;s=MySwitch {}
+ns=6;s=MyLevel.Alarm i=9027 {}
+ns=6;s=MyLevel.Alarm i=9028 {}
+ns=6;s=MyLevel.Alarm i=9029 {}
+ns=6;s=MyLevel.Alarm i=9111 {}
+ns=6;s=MyLevel.Alarm ns=6;s=MyLevel.Alarm/0:AckedState {}
+ns=6;s=MyLevel.Alarm ns=6;s=MyLevel.Alarm/0:ActiveState {}
+ns=6;s=MyLevel.Alarm ns=6;s=MyLevel.Alarm/0:Comment {}
+ns=6;s=MyLevel.Alarm ns=6;s=MyLevel.Alarm/0:EnabledState {}
+ns=6;s=MyLevel.Alarm ns=6;s=MyLevel.Alarm/0:LastSeverity {}
+ns=6;s=MyLevel.Alarm ns=6;s=MyLevel.Alarm/0:LimitState {}
+ns=6;s=MyLevel.Alarm ns=6;s=MyLevel.Alarm/0:Quality {}
+ns=6;s=MyLevel.Alarm ns=6;s=MyLevel.Alarm/0:ConditionClassId {}
+ns=6;s=MyLevel.Alarm ns=6;s=MyLevel.Alarm/0:EventId {}
+ns=6;s=MyLevel.Alarm ns=6;s=MyLevel.Alarm/0:Time {}
+ns=6;s=MyLevel.Alarm ns=6;s=MyLevel.Alarm/0:SuppressedOrShelved {}
+ns=6;s=MyLevel.Alarm ns=6;s=MyLevel.Alarm/0:LowLowLimit {}
+ns=6;s=MyLevel.Alarm ns=6;s=MyLevel.Alarm/0:EventType {}
+ns=6;s=MyLevel.Alarm ns=6;s=MyLevel.Alarm/0:SourceNode {}
+ns=6;s=MyLevel.Alarm ns=6;s=MyLevel.Alarm/0:HighHighLimit {}
+ns=6;s=MyLevel.Alarm ns=6;s=MyLevel.Alarm/0:HighLimit {}
+ns=6;s=MyLevel.Alarm ns=6;s=MyLevel.Alarm/0:Severity {}
+ns=6;s=MyLevel.Alarm ns=6;s=MyLevel.Alarm/0:InputNode {}
+ns=6;s=MyLevel.Alarm ns=6;s=MyLevel.Alarm/0:Retain {}
+ns=6;s=MyLevel.Alarm ns=6;s=MyLevel.Alarm/0:Message {}
+ns=6;s=MyLevel.Alarm ns=6;s=MyLevel.Alarm/0:ClientUserId {}
+ns=6;s=MyLevel.Alarm ns=6;s=MyLevel.Alarm/0:BranchId {}
+ns=6;s=MyLevel.Alarm ns=6;s=MyLevel.Alarm/0:ReceiveTime {}
+ns=6;s=MyLevel.Alarm ns=6;s=MyLevel.Alarm/0:ConditionClassName {}
+ns=6;s=MyLevel.Alarm ns=6;s=MyLevel.Alarm/0:SourceName {}
+ns=6;s=MyLevel.Alarm ns=6;s=MyLevel.Alarm/0:ConditionName {}
+ns=6;s=MyLevel.Alarm ns=6;s=MyLevel.Alarm/0:LowLimit {}
+i=9029 i=9030 {}
+i=9111 i=9112 {}
+ns=6;s=MyLevel.Alarm/0:AckedState ns=6;s=MyLevel.Alarm/0:AckedState/0:FalseState {}
+ns=6;s=MyLevel.Alarm/0:AckedState ns=6;s=MyLevel.Alarm/0:AckedState/0:TrueState {}
+ns=6;s=MyLevel.Alarm/0:AckedState ns=6;s=MyLevel.Alarm/0:AckedState/0:Id {}
+ns=6;s=MyLevel.Alarm/0:ActiveState ns=6;s=MyLevel.Alarm/0:ActiveState/0:FalseState {}
+ns=6;s=MyLevel.Alarm/0:ActiveState ns=6;s=MyLevel.Alarm/0:ActiveState/0:TrueState {}
+ns=6;s=MyLevel.Alarm/0:ActiveState ns=6;s=MyLevel.Alarm/0:ActiveState/0:Id {}
+ns=6;s=MyLevel.Alarm/0:Comment ns=6;s=MyLevel.Alarm/0:Comment/0:SourceTimestamp {}
+ns=6;s=MyLevel.Alarm/0:EnabledState ns=6;s=MyLevel.Alarm/0:EnabledState/0:FalseState {}
+ns=6;s=MyLevel.Alarm/0:EnabledState ns=6;s=MyLevel.Alarm/0:EnabledState/0:TrueState {}
+ns=6;s=MyLevel.Alarm/0:EnabledState ns=6;s=MyLevel.Alarm/0:EnabledState/0:Id {}
+ns=6;s=MyLevel.Alarm/0:LastSeverity ns=6;s=MyLevel.Alarm/0:LastSeverity/0:SourceTimestamp {}
+ns=6;s=MyLevel.Alarm/0:LimitState ns=6;s=MyLevel.Alarm/0:LimitState/0:CurrentState {}
+ns=6;s=MyLevel.Alarm/0:LimitState/0:CurrentState ns=6;s=MyLevel.Alarm/0:LimitState/0:CurrentState/0:Id {}
+ns=6;s=MyLevel.Alarm/0:Quality ns=6;s=MyLevel.Alarm/0:Quality/0:SourceTimestamp {}
+ns=6;s=MyMethod ns=6;s=MyMethod/0:InputArguments {}
+ns=6;s=MyMethod ns=6;s=MyMethod/0:OutputArguments {}

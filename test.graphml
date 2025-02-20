@@ -1,0 +1,586 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d2" for="node" attr.name="dn" attr.type="string"/>
+<key id="d1" for="node" attr.name="typ" attr.type="string"/>
+<key id="d0" for="node" attr.name="bn" attr.type="string"/>
+<graph edgedefault="directed"><node id="i=84">
+  <data key="d0">Object</data>
+  <data key="d1">Object</data>
+  <data key="d2">Root</data>
+</node>
+<node id="i=85">
+  <data key="d0">Object</data>
+  <data key="d1">Object</data>
+  <data key="d2">Objects</data>
+</node>
+<node id="ns=3;i=1001">
+  <data key="d0">Object</data>
+  <data key="d1">Object</data>
+  <data key="d2">cement_crusher1</data>
+</node>
+<node id="ns=3;i=1012">
+  <data key="d0">Variable</data>
+  <data key="d1">VariantType.Double</data>
+  <data key="d2">cement_production</data>
+</node>
+<node id="ns=3;i=1013">
+  <data key="d0">Variable</data>
+  <data key="d1">VariantType.Double</data>
+  <data key="d2">clincker_consumer</data>
+</node>
+<node id="ns=3;i=1014">
+  <data key="d0">Variable</data>
+  <data key="d1">VariantType.Double</data>
+  <data key="d2">stone_consumer</data>
+</node>
+<node id="ns=3;i=1015">
+  <data key="d0">Variable</data>
+  <data key="d1">VariantType.Double</data>
+  <data key="d2">elctrical_consumer</data>
+</node>
+<node id="ns=3;i=1016">
+  <data key="d0">Variable</data>
+  <data key="d1">VariantType.Double</data>
+  <data key="d2">fitness_cement</data>
+</node>
+<node id="ns=3;i=1009">
+  <data key="d0">Object</data>
+  <data key="d1">Object</data>
+  <data key="d2">cement crusher2</data>
+</node>
+<node id="ns=3;i=1010">
+  <data key="d0">Object</data>
+  <data key="d1">Object</data>
+  <data key="d2">clincker oven1</data>
+</node>
+<node id="ns=3;i=1011">
+  <data key="d0">Object</data>
+  <data key="d1">Object</data>
+  <data key="d2">main electrical station</data>
+</node>
+<node id="ns=3;s=85/0:Simulation">
+  <data key="d0">Object</data>
+  <data key="d1">Object</data>
+  <data key="d2">Simulation</data>
+</node>
+<node id="ns=3;i=1002">
+  <data key="d0">Variable</data>
+  <data key="d1">VariantType.Double</data>
+  <data key="d2">Random</data>
+</node>
+<node id="ns=4;i=1002">
+  <data key="d0">Object</data>
+  <data key="d1">Object</data>
+  <data key="d2">Signal</data>
+</node>
+<node id="ns=4;s=1002/0:Max Value"/>
+<node id="ns=4;s=1002/0:Min Value"/>
+<node id="ns=3;i=1003">
+  <data key="d0">Variable</data>
+  <data key="d1">VariantType.Double</data>
+  <data key="d2">Sawtooth</data>
+</node>
+<node id="ns=4;i=1003">
+  <data key="d0">Object</data>
+  <data key="d1">Object</data>
+  <data key="d2">Signal</data>
+</node>
+<node id="ns=4;s=1003/0:Time Offset"/>
+<node id="ns=4;s=1003/0:Min Value"/>
+<node id="ns=4;s=1003/0:Max Value"/>
+<node id="ns=4;s=1003/0:Period"/>
+<node id="ns=3;i=1004">
+  <data key="d0">Variable</data>
+  <data key="d1">VariantType.Double</data>
+  <data key="d2">Sinusoid</data>
+</node>
+<node id="ns=4;i=1004">
+  <data key="d0">Object</data>
+  <data key="d1">Object</data>
+  <data key="d2">Signal</data>
+</node>
+<node id="ns=4;s=1004/0:Time Offset"/>
+<node id="ns=4;s=1004/0:Min Value"/>
+<node id="ns=4;s=1004/0:Max Value"/>
+<node id="ns=4;s=1004/0:Period"/>
+<node id="ns=3;i=1005">
+  <data key="d0">Variable</data>
+  <data key="d1">VariantType.Double</data>
+  <data key="d2">Square</data>
+</node>
+<node id="ns=4;i=1005">
+  <data key="d0">Object</data>
+  <data key="d1">Object</data>
+  <data key="d2">Signal</data>
+</node>
+<node id="ns=4;s=1005/0:Time Offset"/>
+<node id="ns=4;s=1005/0:Min Value"/>
+<node id="ns=4;s=1005/0:Max Value"/>
+<node id="ns=4;s=1005/0:Period"/>
+<node id="ns=3;i=1006">
+  <data key="d0">Variable</data>
+  <data key="d1">VariantType.Double</data>
+  <data key="d2">Triangle</data>
+</node>
+<node id="ns=4;i=1001">
+  <data key="d0">Object</data>
+  <data key="d1">Object</data>
+  <data key="d2">Signal</data>
+</node>
+<node id="ns=4;s=1001/0:Time Offset"/>
+<node id="ns=4;s=1001/0:Min Value"/>
+<node id="ns=4;s=1001/0:Max Value"/>
+<node id="ns=4;s=1001/0:Period"/>
+<node id="ns=3;i=1007">
+  <data key="d0">Variable</data>
+  <data key="d1">VariantType.ExtensionObject</data>
+  <data key="d2">gh</data>
+</node>
+<node id="ns=3;s=1007/0:CumulatedSessionCount">
+  <data key="d0">Variable</data>
+  <data key="d1">VariantType.UInt32</data>
+  <data key="d2">CumulatedSessionCount</data>
+</node>
+<node id="ns=3;s=1007/0:CumulatedSubscriptionCount">
+  <data key="d0">Variable</data>
+  <data key="d1">VariantType.UInt32</data>
+  <data key="d2">CumulatedSubscriptionCount</data>
+</node>
+<node id="ns=3;s=1007/0:CurrentSessionCount">
+  <data key="d0">Variable</data>
+  <data key="d1">VariantType.UInt32</data>
+  <data key="d2">CurrentSessionCount</data>
+</node>
+<node id="ns=3;s=1007/0:CurrentSubscriptionCount">
+  <data key="d0">Variable</data>
+  <data key="d1">VariantType.UInt32</data>
+  <data key="d2">CurrentSubscriptionCount</data>
+</node>
+<node id="ns=3;s=1007/0:PublishingIntervalCount">
+  <data key="d0">Variable</data>
+  <data key="d1">VariantType.UInt32</data>
+  <data key="d2">PublishingIntervalCount</data>
+</node>
+<node id="ns=3;s=1007/0:RejectedRequestsCount">
+  <data key="d0">Variable</data>
+  <data key="d1">VariantType.UInt32</data>
+  <data key="d2">RejectedRequestsCount</data>
+</node>
+<node id="ns=3;s=1007/0:RejectedSessionCount">
+  <data key="d0">Variable</data>
+  <data key="d1">VariantType.UInt32</data>
+  <data key="d2">RejectedSessionCount</data>
+</node>
+<node id="ns=3;s=1007/0:SecurityRejectedRequestsCount">
+  <data key="d0">Variable</data>
+  <data key="d1">VariantType.UInt32</data>
+  <data key="d2">SecurityRejectedRequestsCount</data>
+</node>
+<node id="ns=3;s=1007/0:SecurityRejectedSessionCount">
+  <data key="d0">Variable</data>
+  <data key="d1">VariantType.UInt32</data>
+  <data key="d2">SecurityRejectedSessionCount</data>
+</node>
+<node id="ns=3;s=1007/0:ServerViewCount">
+  <data key="d0">Variable</data>
+  <data key="d1">VariantType.UInt32</data>
+  <data key="d2">ServerViewCount</data>
+</node>
+<node id="ns=3;s=1007/0:SessionAbortCount">
+  <data key="d0">Variable</data>
+  <data key="d1">VariantType.UInt32</data>
+  <data key="d2">SessionAbortCount</data>
+</node>
+<node id="ns=3;s=1007/0:SessionTimeoutCount">
+  <data key="d0">Variable</data>
+  <data key="d1">VariantType.UInt32</data>
+  <data key="d2">SessionTimeoutCount</data>
+</node>
+<node id="ns=3;i=1008">
+  <data key="d0">Variable</data>
+  <data key="d1">VariantType.Double</data>
+  <data key="d2">hg</data>
+</node>
+<node id="ns=6;s=MyObjectsFolder">
+  <data key="d0">Object</data>
+  <data key="d1">Object</data>
+  <data key="d2">MyObjects</data>
+</node>
+<node id="ns=6;s=MyDevice">
+  <data key="d0">Object</data>
+  <data key="d1">Object</data>
+  <data key="d2">MyDevice</data>
+</node>
+<node id="ns=6;s=MyLevel">
+  <data key="d0">Variable</data>
+  <data key="d1">VariantType.Double</data>
+  <data key="d2">MyLevel</data>
+</node>
+<node id="ns=6;s=MyLevel.Alarm">
+  <data key="d0">Object</data>
+  <data key="d1">Object</data>
+  <data key="d2">MyLevelAlarm</data>
+</node>
+<node id="i=9027">
+  <data key="d0">Method</data>
+  <data key="d1">Method</data>
+  <data key="d2">Enable</data>
+</node>
+<node id="i=9028">
+  <data key="d0">Method</data>
+  <data key="d1">Method</data>
+  <data key="d2">Disable</data>
+</node>
+<node id="i=9029">
+  <data key="d0">Method</data>
+  <data key="d1">Method</data>
+  <data key="d2">AddComment</data>
+</node>
+<node id="i=9030">
+  <data key="d0">Variable</data>
+  <data key="d1">VariantType.ExtensionObject</data>
+  <data key="d2">InputArguments</data>
+</node>
+<node id="i=9111">
+  <data key="d0">Method</data>
+  <data key="d1">Method</data>
+  <data key="d2">Acknowledge</data>
+</node>
+<node id="i=9112">
+  <data key="d0">Variable</data>
+  <data key="d1">VariantType.ExtensionObject</data>
+  <data key="d2">InputArguments</data>
+</node>
+<node id="ns=6;s=MyLevel.Alarm/0:AckedState">
+  <data key="d0">Variable</data>
+  <data key="d1">VariantType.LocalizedText</data>
+  <data key="d2">AckedState</data>
+</node>
+<node id="ns=6;s=MyLevel.Alarm/0:AckedState/0:FalseState">
+  <data key="d0">Variable</data>
+  <data key="d1">VariantType.LocalizedText</data>
+  <data key="d2">FalseState</data>
+</node>
+<node id="ns=6;s=MyLevel.Alarm/0:AckedState/0:TrueState">
+  <data key="d0">Variable</data>
+  <data key="d1">VariantType.LocalizedText</data>
+  <data key="d2">TrueState</data>
+</node>
+<node id="ns=6;s=MyLevel.Alarm/0:AckedState/0:Id">
+  <data key="d0">Variable</data>
+  <data key="d1">VariantType.Boolean</data>
+  <data key="d2">Id</data>
+</node>
+<node id="ns=6;s=MyLevel.Alarm/0:ActiveState">
+  <data key="d0">Variable</data>
+  <data key="d1">VariantType.LocalizedText</data>
+  <data key="d2">ActiveState</data>
+</node>
+<node id="ns=6;s=MyLevel.Alarm/0:ActiveState/0:FalseState">
+  <data key="d0">Variable</data>
+  <data key="d1">VariantType.LocalizedText</data>
+  <data key="d2">FalseState</data>
+</node>
+<node id="ns=6;s=MyLevel.Alarm/0:ActiveState/0:TrueState">
+  <data key="d0">Variable</data>
+  <data key="d1">VariantType.LocalizedText</data>
+  <data key="d2">TrueState</data>
+</node>
+<node id="ns=6;s=MyLevel.Alarm/0:ActiveState/0:Id">
+  <data key="d0">Variable</data>
+  <data key="d1">VariantType.Boolean</data>
+  <data key="d2">Id</data>
+</node>
+<node id="ns=6;s=MyLevel.Alarm/0:Comment">
+  <data key="d0">Variable</data>
+  <data key="d1">VariantType.LocalizedText</data>
+  <data key="d2">Comment</data>
+</node>
+<node id="ns=6;s=MyLevel.Alarm/0:Comment/0:SourceTimestamp">
+  <data key="d0">Variable</data>
+  <data key="d1">VariantType.DateTime</data>
+  <data key="d2">SourceTimestamp</data>
+</node>
+<node id="ns=6;s=MyLevel.Alarm/0:EnabledState">
+  <data key="d0">Variable</data>
+  <data key="d1">VariantType.LocalizedText</data>
+  <data key="d2">EnabledState</data>
+</node>
+<node id="ns=6;s=MyLevel.Alarm/0:EnabledState/0:FalseState">
+  <data key="d0">Variable</data>
+  <data key="d1">VariantType.LocalizedText</data>
+  <data key="d2">FalseState</data>
+</node>
+<node id="ns=6;s=MyLevel.Alarm/0:EnabledState/0:TrueState">
+  <data key="d0">Variable</data>
+  <data key="d1">VariantType.LocalizedText</data>
+  <data key="d2">TrueState</data>
+</node>
+<node id="ns=6;s=MyLevel.Alarm/0:EnabledState/0:Id">
+  <data key="d0">Variable</data>
+  <data key="d1">VariantType.Boolean</data>
+  <data key="d2">Id</data>
+</node>
+<node id="ns=6;s=MyLevel.Alarm/0:LastSeverity">
+  <data key="d0">Variable</data>
+  <data key="d1">VariantType.UInt16</data>
+  <data key="d2">LastSeverity</data>
+</node>
+<node id="ns=6;s=MyLevel.Alarm/0:LastSeverity/0:SourceTimestamp">
+  <data key="d0">Variable</data>
+  <data key="d1">VariantType.DateTime</data>
+  <data key="d2">SourceTimestamp</data>
+</node>
+<node id="ns=6;s=MyLevel.Alarm/0:LimitState">
+  <data key="d0">Object</data>
+  <data key="d1">Object</data>
+  <data key="d2">LimitState</data>
+</node>
+<node id="ns=6;s=MyLevel.Alarm/0:LimitState/0:CurrentState">
+  <data key="d0">Variable</data>
+  <data key="d1">VariantType.LocalizedText</data>
+  <data key="d2">CurrentState</data>
+</node>
+<node id="ns=6;s=MyLevel.Alarm/0:LimitState/0:CurrentState/0:Id">
+  <data key="d0">Variable</data>
+  <data key="d1">VariantType.NodeId</data>
+  <data key="d2">Id</data>
+</node>
+<node id="ns=6;s=MyLevel.Alarm/0:Quality">
+  <data key="d0">Variable</data>
+  <data key="d1">VariantType.StatusCode</data>
+  <data key="d2">Quality</data>
+</node>
+<node id="ns=6;s=MyLevel.Alarm/0:Quality/0:SourceTimestamp">
+  <data key="d0">Variable</data>
+  <data key="d1">VariantType.DateTime</data>
+  <data key="d2">SourceTimestamp</data>
+</node>
+<node id="ns=6;s=MyLevel.Alarm/0:ConditionClassId">
+  <data key="d0">Variable</data>
+  <data key="d1">VariantType.NodeId</data>
+  <data key="d2">ConditionClassId</data>
+</node>
+<node id="ns=6;s=MyLevel.Alarm/0:EventId">
+  <data key="d0">Variable</data>
+  <data key="d1">VariantType.ByteString</data>
+  <data key="d2">EventId</data>
+</node>
+<node id="ns=6;s=MyLevel.Alarm/0:Time">
+  <data key="d0">Variable</data>
+  <data key="d1">VariantType.DateTime</data>
+  <data key="d2">Time</data>
+</node>
+<node id="ns=6;s=MyLevel.Alarm/0:SuppressedOrShelved">
+  <data key="d0">Variable</data>
+  <data key="d1">VariantType.Boolean</data>
+  <data key="d2">SuppressedOrShelved</data>
+</node>
+<node id="ns=6;s=MyLevel.Alarm/0:LowLowLimit">
+  <data key="d0">Variable</data>
+  <data key="d1">VariantType.Double</data>
+  <data key="d2">LowLowLimit</data>
+</node>
+<node id="ns=6;s=MyLevel.Alarm/0:EventType">
+  <data key="d0">Variable</data>
+  <data key="d1">VariantType.NodeId</data>
+  <data key="d2">EventType</data>
+</node>
+<node id="ns=6;s=MyLevel.Alarm/0:SourceNode">
+  <data key="d0">Variable</data>
+  <data key="d1">VariantType.NodeId</data>
+  <data key="d2">SourceNode</data>
+</node>
+<node id="ns=6;s=MyLevel.Alarm/0:HighHighLimit">
+  <data key="d0">Variable</data>
+  <data key="d1">VariantType.Double</data>
+  <data key="d2">HighHighLimit</data>
+</node>
+<node id="ns=6;s=MyLevel.Alarm/0:HighLimit">
+  <data key="d0">Variable</data>
+  <data key="d1">VariantType.Double</data>
+  <data key="d2">HighLimit</data>
+</node>
+<node id="ns=6;s=MyLevel.Alarm/0:Severity">
+  <data key="d0">Variable</data>
+  <data key="d1">VariantType.UInt16</data>
+  <data key="d2">Severity</data>
+</node>
+<node id="ns=6;s=MyLevel.Alarm/0:InputNode">
+  <data key="d0">Variable</data>
+  <data key="d1">VariantType.NodeId</data>
+  <data key="d2">InputNode</data>
+</node>
+<node id="ns=6;s=MyLevel.Alarm/0:Retain">
+  <data key="d0">Variable</data>
+  <data key="d1">VariantType.Boolean</data>
+  <data key="d2">Retain</data>
+</node>
+<node id="ns=6;s=MyLevel.Alarm/0:Message">
+  <data key="d0">Variable</data>
+  <data key="d1">VariantType.LocalizedText</data>
+  <data key="d2">Message</data>
+</node>
+<node id="ns=6;s=MyLevel.Alarm/0:ClientUserId">
+  <data key="d0">Variable</data>
+  <data key="d1">VariantType.String</data>
+  <data key="d2">ClientUserId</data>
+</node>
+<node id="ns=6;s=MyLevel.Alarm/0:BranchId">
+  <data key="d0">Variable</data>
+  <data key="d1">VariantType.NodeId</data>
+  <data key="d2">BranchId</data>
+</node>
+<node id="ns=6;s=MyLevel.Alarm/0:ReceiveTime">
+  <data key="d0">Variable</data>
+  <data key="d1">VariantType.DateTime</data>
+  <data key="d2">ReceiveTime</data>
+</node>
+<node id="ns=6;s=MyLevel.Alarm/0:ConditionClassName">
+  <data key="d0">Variable</data>
+  <data key="d1">VariantType.LocalizedText</data>
+  <data key="d2">ConditionClassName</data>
+</node>
+<node id="ns=6;s=MyLevel.Alarm/0:SourceName">
+  <data key="d0">Variable</data>
+  <data key="d1">VariantType.String</data>
+  <data key="d2">SourceName</data>
+</node>
+<node id="ns=6;s=MyLevel.Alarm/0:ConditionName">
+  <data key="d0">Variable</data>
+  <data key="d1">VariantType.String</data>
+  <data key="d2">ConditionName</data>
+</node>
+<node id="ns=6;s=MyLevel.Alarm/0:LowLimit">
+  <data key="d0">Variable</data>
+  <data key="d1">VariantType.Double</data>
+  <data key="d2">LowLimit</data>
+</node>
+<node id="ns=6;s=MyMethod">
+  <data key="d0">Method</data>
+  <data key="d1">Method</data>
+  <data key="d2">MyMethod</data>
+</node>
+<node id="ns=6;s=MyMethod/0:InputArguments">
+  <data key="d0">Variable</data>
+  <data key="d1">VariantType.ExtensionObject</data>
+  <data key="d2">InputArguments</data>
+</node>
+<node id="ns=6;s=MyMethod/0:OutputArguments">
+  <data key="d0">Variable</data>
+  <data key="d1">VariantType.ExtensionObject</data>
+  <data key="d2">OutputArguments</data>
+</node>
+<node id="ns=6;s=MySwitch">
+  <data key="d0">Variable</data>
+  <data key="d1">VariantType.Boolean</data>
+  <data key="d2">MySwitch</data>
+</node>
+<edge source="i=84" target="i=85"/>
+<edge source="i=85" target="ns=3;i=1001"/>
+<edge source="i=85" target="ns=3;i=1009"/>
+<edge source="i=85" target="ns=3;i=1010"/>
+<edge source="i=85" target="ns=3;i=1011"/>
+<edge source="i=85" target="ns=3;s=85/0:Simulation"/>
+<edge source="i=85" target="ns=6;s=MyObjectsFolder"/>
+<edge source="ns=3;i=1001" target="ns=3;i=1012"/>
+<edge source="ns=3;i=1001" target="ns=3;i=1013"/>
+<edge source="ns=3;i=1001" target="ns=3;i=1014"/>
+<edge source="ns=3;i=1001" target="ns=3;i=1015"/>
+<edge source="ns=3;i=1001" target="ns=3;i=1016"/>
+<edge source="ns=3;s=85/0:Simulation" target="ns=3;i=1002"/>
+<edge source="ns=3;s=85/0:Simulation" target="ns=3;i=1003"/>
+<edge source="ns=3;s=85/0:Simulation" target="ns=3;i=1004"/>
+<edge source="ns=3;s=85/0:Simulation" target="ns=3;i=1005"/>
+<edge source="ns=3;s=85/0:Simulation" target="ns=3;i=1006"/>
+<edge source="ns=3;s=85/0:Simulation" target="ns=3;i=1007"/>
+<edge source="ns=3;s=85/0:Simulation" target="ns=3;i=1008"/>
+<edge source="ns=3;i=1002" target="ns=4;i=1002"/>
+<edge source="ns=4;i=1002" target="ns=4;s=1002/0:Max Value"/>
+<edge source="ns=4;i=1002" target="ns=4;s=1002/0:Min Value"/>
+<edge source="ns=3;i=1003" target="ns=4;i=1003"/>
+<edge source="ns=4;i=1003" target="ns=4;s=1003/0:Time Offset"/>
+<edge source="ns=4;i=1003" target="ns=4;s=1003/0:Min Value"/>
+<edge source="ns=4;i=1003" target="ns=4;s=1003/0:Max Value"/>
+<edge source="ns=4;i=1003" target="ns=4;s=1003/0:Period"/>
+<edge source="ns=3;i=1004" target="ns=4;i=1004"/>
+<edge source="ns=4;i=1004" target="ns=4;s=1004/0:Time Offset"/>
+<edge source="ns=4;i=1004" target="ns=4;s=1004/0:Min Value"/>
+<edge source="ns=4;i=1004" target="ns=4;s=1004/0:Max Value"/>
+<edge source="ns=4;i=1004" target="ns=4;s=1004/0:Period"/>
+<edge source="ns=3;i=1005" target="ns=4;i=1005"/>
+<edge source="ns=4;i=1005" target="ns=4;s=1005/0:Time Offset"/>
+<edge source="ns=4;i=1005" target="ns=4;s=1005/0:Min Value"/>
+<edge source="ns=4;i=1005" target="ns=4;s=1005/0:Max Value"/>
+<edge source="ns=4;i=1005" target="ns=4;s=1005/0:Period"/>
+<edge source="ns=3;i=1006" target="ns=4;i=1001"/>
+<edge source="ns=4;i=1001" target="ns=4;s=1001/0:Time Offset"/>
+<edge source="ns=4;i=1001" target="ns=4;s=1001/0:Min Value"/>
+<edge source="ns=4;i=1001" target="ns=4;s=1001/0:Max Value"/>
+<edge source="ns=4;i=1001" target="ns=4;s=1001/0:Period"/>
+<edge source="ns=3;i=1007" target="ns=3;s=1007/0:CumulatedSessionCount"/>
+<edge source="ns=3;i=1007" target="ns=3;s=1007/0:CumulatedSubscriptionCount"/>
+<edge source="ns=3;i=1007" target="ns=3;s=1007/0:CurrentSessionCount"/>
+<edge source="ns=3;i=1007" target="ns=3;s=1007/0:CurrentSubscriptionCount"/>
+<edge source="ns=3;i=1007" target="ns=3;s=1007/0:PublishingIntervalCount"/>
+<edge source="ns=3;i=1007" target="ns=3;s=1007/0:RejectedRequestsCount"/>
+<edge source="ns=3;i=1007" target="ns=3;s=1007/0:RejectedSessionCount"/>
+<edge source="ns=3;i=1007" target="ns=3;s=1007/0:SecurityRejectedRequestsCount"/>
+<edge source="ns=3;i=1007" target="ns=3;s=1007/0:SecurityRejectedSessionCount"/>
+<edge source="ns=3;i=1007" target="ns=3;s=1007/0:ServerViewCount"/>
+<edge source="ns=3;i=1007" target="ns=3;s=1007/0:SessionAbortCount"/>
+<edge source="ns=3;i=1007" target="ns=3;s=1007/0:SessionTimeoutCount"/>
+<edge source="ns=6;s=MyObjectsFolder" target="ns=6;s=MyDevice"/>
+<edge source="ns=6;s=MyDevice" target="ns=6;s=MyLevel"/>
+<edge source="ns=6;s=MyDevice" target="ns=6;s=MyLevel.Alarm"/>
+<edge source="ns=6;s=MyDevice" target="ns=6;s=MyMethod"/>
+<edge source="ns=6;s=MyDevice" target="ns=6;s=MySwitch"/>
+<edge source="ns=6;s=MyLevel.Alarm" target="i=9027"/>
+<edge source="ns=6;s=MyLevel.Alarm" target="i=9028"/>
+<edge source="ns=6;s=MyLevel.Alarm" target="i=9029"/>
+<edge source="ns=6;s=MyLevel.Alarm" target="i=9111"/>
+<edge source="ns=6;s=MyLevel.Alarm" target="ns=6;s=MyLevel.Alarm/0:AckedState"/>
+<edge source="ns=6;s=MyLevel.Alarm" target="ns=6;s=MyLevel.Alarm/0:ActiveState"/>
+<edge source="ns=6;s=MyLevel.Alarm" target="ns=6;s=MyLevel.Alarm/0:Comment"/>
+<edge source="ns=6;s=MyLevel.Alarm" target="ns=6;s=MyLevel.Alarm/0:EnabledState"/>
+<edge source="ns=6;s=MyLevel.Alarm" target="ns=6;s=MyLevel.Alarm/0:LastSeverity"/>
+<edge source="ns=6;s=MyLevel.Alarm" target="ns=6;s=MyLevel.Alarm/0:LimitState"/>
+<edge source="ns=6;s=MyLevel.Alarm" target="ns=6;s=MyLevel.Alarm/0:Quality"/>
+<edge source="ns=6;s=MyLevel.Alarm" target="ns=6;s=MyLevel.Alarm/0:ConditionClassId"/>
+<edge source="ns=6;s=MyLevel.Alarm" target="ns=6;s=MyLevel.Alarm/0:EventId"/>
+<edge source="ns=6;s=MyLevel.Alarm" target="ns=6;s=MyLevel.Alarm/0:Time"/>
+<edge source="ns=6;s=MyLevel.Alarm" target="ns=6;s=MyLevel.Alarm/0:SuppressedOrShelved"/>
+<edge source="ns=6;s=MyLevel.Alarm" target="ns=6;s=MyLevel.Alarm/0:LowLowLimit"/>
+<edge source="ns=6;s=MyLevel.Alarm" target="ns=6;s=MyLevel.Alarm/0:EventType"/>
+<edge source="ns=6;s=MyLevel.Alarm" target="ns=6;s=MyLevel.Alarm/0:SourceNode"/>
+<edge source="ns=6;s=MyLevel.Alarm" target="ns=6;s=MyLevel.Alarm/0:HighHighLimit"/>
+<edge source="ns=6;s=MyLevel.Alarm" target="ns=6;s=MyLevel.Alarm/0:HighLimit"/>
+<edge source="ns=6;s=MyLevel.Alarm" target="ns=6;s=MyLevel.Alarm/0:Severity"/>
+<edge source="ns=6;s=MyLevel.Alarm" target="ns=6;s=MyLevel.Alarm/0:InputNode"/>
+<edge source="ns=6;s=MyLevel.Alarm" target="ns=6;s=MyLevel.Alarm/0:Retain"/>
+<edge source="ns=6;s=MyLevel.Alarm" target="ns=6;s=MyLevel.Alarm/0:Message"/>
+<edge source="ns=6;s=MyLevel.Alarm" target="ns=6;s=MyLevel.Alarm/0:ClientUserId"/>
+<edge source="ns=6;s=MyLevel.Alarm" target="ns=6;s=MyLevel.Alarm/0:BranchId"/>
+<edge source="ns=6;s=MyLevel.Alarm" target="ns=6;s=MyLevel.Alarm/0:ReceiveTime"/>
+<edge source="ns=6;s=MyLevel.Alarm" target="ns=6;s=MyLevel.Alarm/0:ConditionClassName"/>
+<edge source="ns=6;s=MyLevel.Alarm" target="ns=6;s=MyLevel.Alarm/0:SourceName"/>
+<edge source="ns=6;s=MyLevel.Alarm" target="ns=6;s=MyLevel.Alarm/0:ConditionName"/>
+<edge source="ns=6;s=MyLevel.Alarm" target="ns=6;s=MyLevel.Alarm/0:LowLimit"/>
+<edge source="i=9029" target="i=9030"/>
+<edge source="i=9111" target="i=9112"/>
+<edge source="ns=6;s=MyLevel.Alarm/0:AckedState" target="ns=6;s=MyLevel.Alarm/0:AckedState/0:FalseState"/>
+<edge source="ns=6;s=MyLevel.Alarm/0:AckedState" target="ns=6;s=MyLevel.Alarm/0:AckedState/0:TrueState"/>
+<edge source="ns=6;s=MyLevel.Alarm/0:AckedState" target="ns=6;s=MyLevel.Alarm/0:AckedState/0:Id"/>
+<edge source="ns=6;s=MyLevel.Alarm/0:ActiveState" target="ns=6;s=MyLevel.Alarm/0:ActiveState/0:FalseState"/>
+<edge source="ns=6;s=MyLevel.Alarm/0:ActiveState" target="ns=6;s=MyLevel.Alarm/0:ActiveState/0:TrueState"/>
+<edge source="ns=6;s=MyLevel.Alarm/0:ActiveState" target="ns=6;s=MyLevel.Alarm/0:ActiveState/0:Id"/>
+<edge source="ns=6;s=MyLevel.Alarm/0:Comment" target="ns=6;s=MyLevel.Alarm/0:Comment/0:SourceTimestamp"/>
+<edge source="ns=6;s=MyLevel.Alarm/0:EnabledState" target="ns=6;s=MyLevel.Alarm/0:EnabledState/0:FalseState"/>
+<edge source="ns=6;s=MyLevel.Alarm/0:EnabledState" target="ns=6;s=MyLevel.Alarm/0:EnabledState/0:TrueState"/>
+<edge source="ns=6;s=MyLevel.Alarm/0:EnabledState" target="ns=6;s=MyLevel.Alarm/0:EnabledState/0:Id"/>
+<edge source="ns=6;s=MyLevel.Alarm/0:LastSeverity" target="ns=6;s=MyLevel.Alarm/0:LastSeverity/0:SourceTimestamp"/>
+<edge source="ns=6;s=MyLevel.Alarm/0:LimitState" target="ns=6;s=MyLevel.Alarm/0:LimitState/0:CurrentState"/>
+<edge source="ns=6;s=MyLevel.Alarm/0:LimitState/0:CurrentState" target="ns=6;s=MyLevel.Alarm/0:LimitState/0:CurrentState/0:Id"/>
+<edge source="ns=6;s=MyLevel.Alarm/0:Quality" target="ns=6;s=MyLevel.Alarm/0:Quality/0:SourceTimestamp"/>
+<edge source="ns=6;s=MyMethod" target="ns=6;s=MyMethod/0:InputArguments"/>
+<edge source="ns=6;s=MyMethod" target="ns=6;s=MyMethod/0:OutputArguments"/>
+</graph></graphml>
